@@ -1,0 +1,22 @@
+{
+  "name": "json-server-rest-api",
+  "version": "1.0.0",
+  "description": "JSON Server Demo",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VertikaJain/JSON-SERVER-DEMO.git"
+  },
+  "author": "Vertika Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VertikaJain/JSON-SERVER-DEMO/issues"
+  },
+  "homepage": "https://github.com/VertikaJain/JSON-SERVER-DEMO#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

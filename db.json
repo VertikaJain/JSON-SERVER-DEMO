@@ -1,0 +1,68 @@
+{
+  "schemas": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "sname": "emp",
+      "fields": []
+    },
+    {
+      "id": "2",
+      "projectId": "2",
+      "sname": "abc",
+      "fields": []
+    },
+    {
+      "id": "3",
+      "projectId": "1",
+      "sname": "xyz",
+      "fields": []
+    },
+    {
+      "id": "4",
+      "projectId": "2",
+      "sname": "pqr",
+      "fields": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "pname": "chat application",
+      "endDate": "14th Dec"
+    },
+    {
+      "id": "2",
+      "pname": "fake api application",
+      "endDate": "14th Jan"
+    },
+    {
+      "id": "3",
+      "pname": "geojson application",
+      "endDate": "14th Feb"
+    },
+    {
+      "id": "4",
+      "pname": "daytime application",
+      "endDate": "14th Mar"
+    }
+  ],
+
+  "dummyData": [
+    {
+      "name": "vertika",
+      "DOB": "2 Feb",
+      "designation": "Associate JS dev"
+    },
+    {
+      "name": "archana",
+      "DOB": "12 Feb",
+      "designation": "JS dev"
+    },
+    {
+      "name": "kuldeep",
+      "DOB": "22 Feb",
+      "designation": "JS dev"
+    }
+  ]
+}

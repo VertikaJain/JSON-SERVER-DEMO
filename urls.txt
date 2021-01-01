@@ -1,0 +1,32 @@
+// URLS for testing the json-server library
+
+1. http://localhost:3000/schemas
+2. http://localhost:3000/projects
+3. http://localhost:3000/dummyData
+
+// To GET single Project
+http://localhost:3000/projects/1
+
+// To GET single Schema
+http://localhost:3000/schemas/1
+
+// To GET all schemas of projectId=1
+http://localhost:3000/projects/1/schemas
+
+// Filter Schema by name -> returns array even if one object is there as output.
+http://localhost:3000/schemas?name=emp
+
+// Pagination and Limit
+http://localhost:3000/projects?_page=2&_limit=2
+
+// Sorting
+http://localhost:3000/projects?_sort=name&_order=asc
+http://localhost:3000/schemas?_sort=name&_order=desc
+
+// Range
+http://localhost:3000/dummyData?age_gte=25&age_lte=28
+
+// Full Text Search
+http://localhost:3000/dummyData?q=24
+http://localhost:3000/projects?q=fake%20api%20application
+http://localhost:3000/schemas?q=emp

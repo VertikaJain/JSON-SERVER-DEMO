@@ -3,66 +3,128 @@
     {
       "id": "1",
       "projectId": "1",
-      "sname": "emp",
-      "fields": []
+      "name": "emp",
+      "fields": [
+        {
+          "title": "name",
+          "dataType": "string",
+          "restrictions": ""
+        },
+        {
+          "title": "DOB",
+          "dataType": "date",
+          "restrictions": ""
+        },
+        {
+          "title": "designation",
+          "dataType": "string",
+          "restrictions": ""
+        }
+      ]
     },
     {
       "id": "2",
       "projectId": "2",
-      "sname": "abc",
-      "fields": []
+      "name": "dog",
+      "fields": [
+        {
+          "title": "name",
+          "dataType": "string",
+          "restrictions": ""
+        },
+        {
+          "title": "DOB",
+          "dataType": "date",
+          "restrictions": ""
+        },
+        {
+          "title": "breed",
+          "dataType": "string",
+          "restrictions": ""
+        }
+      ]
     },
     {
       "id": "3",
       "projectId": "1",
-      "sname": "xyz",
-      "fields": []
+      "name": "xyz",
+      "fields": [
+        {
+          "title": "name",
+          "dataType": "string",
+          "restrictions": ""
+        },
+        {
+          "title": "DOB",
+          "dataType": "date",
+          "restrictions": ""
+        },
+        {
+          "title": "designation",
+          "dataType": "string",
+          "restrictions": ""
+        }
+      ]
     },
     {
       "id": "4",
       "projectId": "2",
-      "sname": "pqr",
-      "fields": []
+      "name": "pqr",
+      "fields": [
+        {
+          "title": "name",
+          "dataType": "date",
+          "restrictions": ""
+        },
+        {
+          "title": "DOB",
+          "dataType": "date",
+          "restrictions": ""
+        },
+        {
+          "title": "designation",
+          "dataType": "string",
+          "restrictions": ""
+        }
+      ]
     }
   ],
   "projects": [
     {
       "id": "1",
-      "pname": "chat application",
-      "endDate": "14th Dec"
+      "name": "chat application"
     },
     {
       "id": "2",
-      "pname": "fake api application",
-      "endDate": "14th Jan"
+      "name": "fake api application"
     },
     {
       "id": "3",
-      "pname": "geojson application",
-      "endDate": "14th Feb"
+      "name": "geojson application"
     },
     {
       "id": "4",
-      "pname": "daytime application",
-      "endDate": "14th Mar"
+      "name": "daytime application"
     }
   ],
-
   "dummyData": [
     {
       "name": "vertika",
       "DOB": "2 Feb",
-      "designation": "Associate JS dev"
+      "designation": "Associate JS dev",
+      "age": 24
     },
     {
       "name": "archana",
       "DOB": "12 Feb",
-      "designation": "JS dev"
+      "designation": "JS dev",
+      "age": 28
     },
     {
       "name": "kuldeep",
       "DOB": "22 Feb",
-      "designation": "JS dev"
+      "designation": "JS dev",
+      "age": 29
     }
   ]
 }
